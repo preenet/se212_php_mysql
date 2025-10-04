@@ -34,9 +34,27 @@ se212_php_mysql/
 - `data/create_db_om.sql` - SQL script to create the OM database with tables (customers, items, orders, order_details) and sample data
 
 ## Installation
-1. Clone or copy this project to your XAMPP `htdocs` directory
-2. Create the database `om` in phpMyAdmin
-3. Access the project via: `http://localhost/se212_php_mysql/connect.php`
+
+### Step 1: Clone the Repository
+```bash
+cd C:\xampp\htdocs
+git clone https://github.com/preenet/se212_php_mysql.git
+```
+
+### Step 2: Set Up the Database
+1. Start XAMPP Control Panel and start **Apache** and **MySQL** services
+2. Open phpMyAdmin: `http://localhost/phpmyadmin`
+3. Import the database:
+   - Click on "Import" tab
+   - Choose file: `data/create_db_om.sql`
+   - Click "Go" to execute
+   - This will create the `om` database with all tables and sample data
+
+### Step 3: Run the Project
+Access the files in your browser:
+- **Connection test (OO style)**: `http://localhost/se212_php_mysql/connect.php`
+- **Read data (OO style)**: `http://localhost/se212_php_mysql/read.php`
+- **Read data (Procedural style)**: `http://localhost/se212_php_mysql/read1.php`
 
 ## Configuration
 Database credentials are set in `connect.php`:
