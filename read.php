@@ -1,3 +1,5 @@
+<?php include 'header.php'; ?>
+
 <?php
 
 include 'connect.php';
@@ -21,3 +23,5 @@ echo "0 results";
 $conn->close();
 
 ?>
+
+<?php include 'footer.php'; ?>
