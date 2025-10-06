@@ -3,6 +3,13 @@
 <h2>SE212 PHP MySQL Project - Main Menu</h2>
 
 <div style="padding: 20px;">
+    <h3>📖 Learning Resources</h3>
+    <ul>
+        <li><a href="BASIC_PHP.md" target="_blank">📘 PHP & MySQL Basics Guide</a> - Learn fundamental PHP and MySQL concepts (⭐ Start here if you're new!)</li>
+        <li><a href="ACTIVITY.md" target="_blank">✏️ Class Activity Exercises</a> - Practice CRUD operations with 2 hands-on exercises</li>
+        <li><a href="README.md" target="_blank">📄 Project Documentation</a> - Complete setup and usage guide</li>
+    </ul>
+
     <h3>Database Connection</h3>
     <ul>
         <li><a href="connect.php">Test Database Connection</a> - Verify MySQL connection and display server information</li>
